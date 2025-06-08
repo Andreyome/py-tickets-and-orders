@@ -115,5 +115,4 @@ class Ticket(models.Model):
 
 
 class User(AbstractUser):
-    first_name = models.CharField(max_length=65, blank=True)
-    last_name = models.CharField(max_length=65, blank=True)
+    pass
